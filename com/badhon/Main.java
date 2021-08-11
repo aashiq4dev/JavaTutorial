@@ -13,7 +13,7 @@ public class Main {
        
         Point point1 = new Point(x,y);
         Point point2 = point1; //they are "x","y" not indepentent
-        point1.x = 2;
+        point1.x = 5;
         System.out.println(point2);
     }
 }
