@@ -8,7 +8,7 @@ public class Main {
         char letter = 'A';
         String letters = "HelloWorld"; // if you using charecter variable deffenetly use single coddetion or you Use
                                        // String veriables so you need double codetion//
-        double price = 10.54;
+        float price = 10.54F;
 
         System.out.println(price);
 
