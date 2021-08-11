@@ -2,6 +2,8 @@ package com.badhon;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello World!");
+        int myAge = 30;
+        int herAge = myAge;
+        System.out.println(herAge);
     }
 }
