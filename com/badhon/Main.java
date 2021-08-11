@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        // Multi Dimantion Array
+        // Constants in java
        
         int[][] numbers = {
                 { 1, 2, 3 },
