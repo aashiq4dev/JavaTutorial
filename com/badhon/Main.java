@@ -5,6 +5,8 @@ public class Main {
         int myAge = 30;
         int herAge = myAge;
         long viewCount=3_123_456_789L;
-        System.out.println(viewCount);
+        char letter = 'A';
+        String letters = "HelloWorld"; // if you using charecter variable deffenetly use single coddetion or you Use String veriables so you need double codetion//
+        System.out.println(letters);
     }
 }
