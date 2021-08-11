@@ -9,8 +9,8 @@ public class Main {
         String letters = "HelloWorld"; // if you using charecter variable deffenetly use single coddetion or you Use
                                        // String veriables so you need double codetion//
         float price = 10.54F;
-
-        System.out.println(price);
+        boolean isSelecetd = false;
+        System.out.println(isSelecetd);
 
     }
 }
