@@ -6,15 +6,12 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        // FizzBuzz
-        for (int i = 5; i > 0; i--) {
-            System.out.println("Hello World" + i);
-
+        String input = "";
+        Scanner scanner = new Scanner(System.in);
+        while (!input.equals("quit")) {
+            System.out.println("Input:");
+            input = scanner.next();
+           System.out.println(input);
         }
-        int i = 0;
-            while (i>0) {
-                System.out.println("Hello World" + i);
-                i--;
-            }
     }
 }
