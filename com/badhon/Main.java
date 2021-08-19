@@ -3,20 +3,15 @@ package com.badhon;
 import java.util.Scanner;
 
 public class Main {
-
-    public static void main(String[] args) throws Exception {
-        // While loops
-        Scanner scanner = new Scanner(System.in);
-        String input = "";
-        while (true) {
-            System.out.print("Input:");
-            input = scanner.next().toLowerCase().trim();
-            if (input.equals("pass"))
-                continue;
-            if (input.equals("quit"))
-                break;
-                System.out.println(input);
+    public static void main(String[] args) {
+        //for each loops
+        String[] fuirts = { "Apple", "Mango", "Orange" };
+        
+        for (int i = 0; i < fuirts.length; i++) {
+            System.out.println(fuirts[i]);
         }
-
+        for (String fuit : fuirts) {
+            System.out.println(fuit);
+        }
     }
 }
